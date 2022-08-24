@@ -52,16 +52,21 @@ Figure 6. The datafile in Excel
 
 According to this figure, the dataset consists various data fields including  (statNm, statId, chgerId, chgerType, addr, lat, lng, busiId, bnm, busiNm, busiCall, stat, ReportTime, output, zcode, zscode, kind, kindDetail, parkingFree, limitYn, delYnthus). It was pre-processed on the Excel to correct the data format, for example, Report Time and make the dataset clear and concise. 
 
-Finally, the dataset in [CSV file](./getChargerInfoData.csv) was uploaded on the Elasticsearch platform and new position field was created from the lat and lng values in term of visualizing and creating the map of chargers in Republic of Korea. Based on the dataset, various visualization tools were used to show the features of this dataset. The dashboard can be view via https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/app/r/s/XPdxl
+Finally, the dataset in [CSV file](./getChargerInfoData.csv) was uploaded on the Elasticsearch platform and new position field was created from the lat and lng values in term of visualizing and creating the map of chargers in Republic of Korea. Based on the dataset, various visualization tools were used to show the features of this dataset. 
+
+![image](https://user-images.githubusercontent.com/23649434/186375488-36131e71-6b18-4921-8184-8a790171d244.png)
+Figure 7. Data views of charger-info in Kibana (28 fields)
+
+The dashboard can be view via https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/app/r/s/XPdxl
 
 #### Summary of the Dashboard
 In general, this dashboard shows the visualization of the information on the 1000 Electric vehicle charging stations by the Korea Environment Corporation. According to the visualization, it can be seen that the organization of all chargers is 환경부 with the business ID of ME. On the other hand, the output of chargers is 50 with 98.8% and the charger type is 6 in the most chargers area. Moreover, the highest number of records for charger ID is 804 for type 1. The pie chart shows the variation of the kind details. In addition, the map of chargers visualized the chargers in the Republic of Korea and there are many chargers in big cities like Seoul, and Busan, and also sea contour roads of the Jeju islands. Finally, the pie chart shows the number of chargers with free parking with 57.9% and non-free parking with 42.1%.
 
 ![image](https://user-images.githubusercontent.com/23649434/186336182-e54d1436-f43a-4c40-8b48-2af2e542a749.png)
-Figure 7. Figure of the Dashboard 
+Figure 8. Figure of the Dashboard 
 
 ![image](https://user-images.githubusercontent.com/23649434/186336252-099aecbf-373f-47a9-b08c-12b1eeed6dc5.png)
-Figure 8. Figure of the Dashboard 
+Figure 9. Figure of the Dashboard 
 
 ### Acknowledgement
 I would like to express my very great appreciation to organizers and the Ministry of Science and ICT, the National IT Industry Promotion Agency, and the Korea Software Industry Association for organizing this course to provide me a lot of knowledge and new experience.
