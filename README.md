@@ -16,7 +16,7 @@ The table below shows the relevant link to this project.
 | Item                                                                    | Description                       | Link                        |
 | ------------------------------------------------------------------------|-----------------------------------|-----------------------------|
 | Implementing Elasticsearch, Logstash, and Kibana on Azure Cloud Service | Elasticsearch Port: 9200, Kibana Port: 5601, Logstash: 5044| Platform: http://20.214.225.33:5601/ |
-| Final Project | This is an username and password for viewer. Username: user and Password: user123456 | https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/app/r/s/XPdxl |
+| Final Project | This is an username and password for viewer. <br> Username: user <br> Password: user123456 | https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/app/r/s/XPdxl |
 
 ### Project Implementation
 
