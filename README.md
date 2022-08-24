@@ -35,15 +35,15 @@ Accoring to the documentation and lectures, the server on cloud.elastic.co was a
 
 #### Dataset Crawling & Dataset Processing & Data Visualization
 By accessing into the account provided by organizers, the dataset was collected through API link.  
-There are various way for crawling the data from API. In this project, I reported 3 different ways in Java code, Python code, and working with XML files in VBA of Excel. From the first and second methods, the code was used and uploaded in repository.
+There are various way for crawling the data from API. In this project, I reported 3 different ways in [Java code](./getChargerInfo.java), [Python code](./getChargerInfo.py), and working with [XML file](./getChargerInfoXML.xml) in VBA of Excel. From the first and second methods, the code was used and uploaded in repository.
 
 ![image](https://user-images.githubusercontent.com/23649434/186334691-7b78f8ee-0dd0-45ff-9a21-691a976eab33.png)
-Figure 3. Java Code
+Figure 3. Java Code for crawling data from API
 
 ![image](https://user-images.githubusercontent.com/23649434/186334590-d6f11baa-d5fe-4994-8675-996f277a1907.png)
-Figure 4. Python Code
+Figure 4. Python Code for crawling data from API
 
-For the third method, the XML file data was downloaded from the API link and was imported using VBA of Excel to generate data file in Excel.
+For the third method, the [XML data file](./getChargerInfoXML.xml) was downloaded from the API link and was imported using VBA of Excel to generate [data file in Excel](./getChargerInfoData.xlsx).
 ![image](https://user-images.githubusercontent.com/23649434/186332970-97fe101a-aff1-4c73-8ed3-41e9be5a8dae.png)
 Figure 5. XML file of the dataset
 
@@ -52,7 +52,7 @@ Figure 6. The datafile in Excel
 
 According to this figure, the dataset consists various data fields including  (statNm, statId, chgerId, chgerType, addr, lat, lng, busiId, bnm, busiNm, busiCall, stat, ReportTime, output, zcode, zscode, kind, kindDetail, parkingFree, limitYn, delYnthus). It was pre-processed on the Excel to correct the data format, for example, Report Time and make the dataset clear and concise. 
 
-Finally, the dataset in CSV file was uploaded on the Elasticsearch platform and new position field was created from the lat and lng values in term of visualizing and creating the map of chargers in Republic of Korea. Based on the dataset, various visualization tools were used to show the features of this dataset. The dashboard can be view via https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/app/r/s/XPdxl
+Finally, the dataset in [CSV file](./getChargerInfoData.csv) was uploaded on the Elasticsearch platform and new position field was created from the lat and lng values in term of visualizing and creating the map of chargers in Republic of Korea. Based on the dataset, various visualization tools were used to show the features of this dataset. The dashboard can be view via https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/app/r/s/XPdxl
 
 #### Summary of the Dashboard
 In general, this dashboard shows the visualization of the information on the 1000 Electric vehicle charging stations by the Korea Environment Corporation. According to the visualization, it can be seen that the organization of all chargers is 환경부 with the business ID of ME. On the other hand, the output of chargers is 50 with 98.8% and the charger type is 6 in the most chargers area. Moreover, the highest number of records for charger ID is 804 for type 1. The pie chart shows the variation of the kind details. In addition, the map of chargers visualized the chargers in the Republic of Korea and there are many chargers in big cities like Seoul, and Busan, and also sea contour roads of the Jeju islands. Finally, the pie chart shows the number of chargers with free parking with 57.9% and non-free parking with 42.1%.
