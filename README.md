@@ -31,7 +31,12 @@ Figure 2. Networking including ports for each service
 
 
 #### Setting up the server using cloud.elastic.co
-Accoring to the documentation and lectures, the server on cloud.elastic.co was also implemented as a platform for analyzing and visualizing dataset of this project. The username and password for viewer role were also added as follows (Username: user and Password: user123456), the username and password for admin were also sent via email. The link of final platform: https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/
+Accoring to the documentation and lectures, the server on cloud.elastic.co was also implemented as a platform for analyzing and visualizing dataset of this project. The username and password for viewer role were also added as follows <br> 
+Username: user
+Password: user123456
+<br>
+In addition, the username and password for admin were also sent via email. 
+The link of final platform is https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/
 
 #### Dataset Crawling & Dataset Processing & Data Visualization
 By accessing into the account provided by organizers, the dataset was collected through API link.  
