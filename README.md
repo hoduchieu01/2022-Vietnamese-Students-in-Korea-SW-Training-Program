@@ -32,7 +32,7 @@ Figure 2. Networking including ports for each service
 
 #### Setting up the server using cloud.elastic.co
 Accoring to the documentation and lectures, the server on cloud.elastic.co was also implemented as a platform for analyzing and visualizing dataset of this project. The username and password for viewer role were also added as follows <br> 
-Username: user
+Username: user <br>
 Password: user123456
 <br>
 In addition, the username and password for admin were also sent via email. 
