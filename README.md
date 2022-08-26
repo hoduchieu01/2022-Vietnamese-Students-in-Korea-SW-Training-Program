@@ -33,7 +33,6 @@ Figure 1. Overview of Virtual Machine on Azure Cloud service (20.214.225.33)
 ![image](https://user-images.githubusercontent.com/23649434/186332347-5ef5fd03-c900-47e6-b8c0-a79816aa123c.png)
 Figure 2. Networking including ports for each service
 
-https://github.com/hoduchieu01/2022-Vietnamese-Students-in-Korea-SW-Training-Program.git
 #### Setting up the server using cloud.elastic.co
 Accoring to the documentation and lectures, the server on cloud.elastic.co was also implemented as a platform for analyzing and visualizing dataset of this project. The username and password for viewer role were also added as follows <br> 
 Username: user <br>
