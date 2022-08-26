@@ -8,8 +8,10 @@
 #### Undergraduate student majoring in Computer Science and Engineering
 #### Email: hoduchieu01@snu.ac.kr
 
+#### Update on August 27 2022: This project was evaluated by the lecturers on August 26 2022, therefore I have removed the data file from API for data privacy and protection. In addition, some servers will be turned off and shutdown. However, the documentation guide of this repository will help you implementing this dataset on Elasticsearch step-by-step and preview some results of platform.
+
 ### Summary
-Firstly, the services including Elasticsearch, Logstash, and Kibana were successfully installed and implemented on the Azure Cloud Service. Secondly, the cloud platform of Elasticsearch was also implemented based on cloud.elastic.co. In this project, the dataset 한국환경공단 전기자동차 충전소 정보 was used to analyze and visualized on the Elasticsearch platform based on the real-time provision of nationwide public and private charger status for electric vehicle users and activation of electric vehicle distribution (charging station ID, charger ID, status information) with the dataset of one thousand chargers.
+Firstly, the services including Elasticsearch, Logstash, and Kibana were successfully installed and implemented on the Azure Cloud Service. Secondly, the cloud platform of Elasticsearch was also implemented based on cloud.elastic.co. In this project, the dataset 한국환경공단 전기자동차 충전소 정보 was used to analyze and visualized on the Elasticsearch platform based on the real-time provision of nationwide public and private charger status for electric vehicle users and activation of electric vehicle distribution (charging station ID, charger ID, status information) with the dataset of one thousand chargers. 
 
 The table below shows the relevant link to this project.
 
@@ -17,6 +19,8 @@ The table below shows the relevant link to this project.
 | ------------------------------------------------------------------------|-----------------------------------|-----------------------------|
 | Implementing Elasticsearch, Logstash, and Kibana on Azure Cloud Service | Elasticsearch Port: 9200, Kibana Port: 5601, Logstash: 5044| Platform: http://20.214.225.33:5601/ |
 | Final Project | This is an username and password for viewer. <br> Username: user <br> Password: user123456 | https://hoduchieu01-b5b07a.kb.us-central1.gcp.cloud.es.io:9243/app/r/s/XPdxl |
+
+
 
 ### Project Implementation
 
@@ -29,7 +33,7 @@ Figure 1. Overview of Virtual Machine on Azure Cloud service (20.214.225.33)
 ![image](https://user-images.githubusercontent.com/23649434/186332347-5ef5fd03-c900-47e6-b8c0-a79816aa123c.png)
 Figure 2. Networking including ports for each service
 
-
+https://github.com/hoduchieu01/2022-Vietnamese-Students-in-Korea-SW-Training-Program.git
 #### Setting up the server using cloud.elastic.co
 Accoring to the documentation and lectures, the server on cloud.elastic.co was also implemented as a platform for analyzing and visualizing dataset of this project. The username and password for viewer role were also added as follows <br> 
 Username: user <br>
@@ -76,7 +80,7 @@ Figure 9. Figure of the Dashboard
 ### Acknowledgement
 I would like to express my very great appreciation to organizers and the Ministry of Science and ICT, the National IT Industry Promotion Agency, and the Korea Software Industry Association for organizing this course to provide me a lot of knowledge and new experience.
 <br>
-I would like to express my deep gratitude to the lectures 최승용, 김창호, 박태숙, 정태성 for their valuable time supporting us in class and project assignments and the data.go.kr for approving us using 한국환경공단 전기자동차 충전소 정보 dataset.
+I would like to express my deep gratitude to the lecturers 최승용, 김창호, 박태숙, 정태성 for their valuable time supporting us in class and project assignments and the data.go.kr for approving us using 한국환경공단 전기자동차 충전소 정보 dataset.
 
 
 
